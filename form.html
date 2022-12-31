@@ -4,7 +4,7 @@
        <title>input page</title>
     </head>
     <body>
-        <table width="80%"  border="1"  rules="all" align="center">
+        <table width="100%"  border="1"  rules="all">
             <tr height="70px">
                 
                 <td align="center" colspan="5"><h2>Registration Form</h2></td>
@@ -17,24 +17,119 @@
                 <td><a href="form.html">Registratin form</a></td>
                 <td><a href="contact.html">contact us.</a></td>
             </tr>
-            <tr height="500px">
-                <td colspan="5" valign="top" align="center">
-                    <table border="1" cellpadding="10">
+            <tr>
+                <td colspan="5" valign="top">
+                    <table cellpadding="10" width="100%">
                         <tr>
-                            <th colspan="2">Registratin Form</th>
+                            <td width="100%" colspan="2"><p>Personal Details</p><hr></td>
                         </tr>
+                      
                         <tr>
-                            <td>Name : </td>
+                            <td align="right">Name : </td>
                             <td><input type="text"></td>
                         </tr>
                         <tr>
-                            <td>Name : </td>
+                            <td align="right">Father name:</td>
                             <td><input type="text"></td>
                         </tr>
                         <tr>
-                            <td>class: hdhdsfb </td>
-                            <td><input type="text"></td>
+                            <td align="right">Date of birth:</td>
+                            <td><input type="date" value="date"</td>
                         </tr>
+                        <tr>
+                            <td align="right">Gender:</td>
+                            <td><select name="gender" id="gender">
+                                <option value="choose gender">--Select--</option>
+                                </option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Others</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Type of identification:</td>
+                            <td><select name="identificaton name" id="identification name">
+                                <option vlaue="choose any one">--Select--</option>
+                                <option value="aadhar card">Aadhar Card</option>
+                                <option value="pancard">Pan card</option>
+                                <option value="voter id card">Voter id Card</option>
+                                <option value="driving lincense">Driving license</option>
+                            </select></td>
+                      </tr>
+                        <tr>
+                            <td align="right">Identification Number:</td>
+                            <td><input type="text"</td>
+                        </tr>
+                        <tr>
+                            <td width="100%" colspan="2"><p>Present Details:<hr></p></td>
+                         </tr>
+                            <tr>
+                                <td align="right">Premises No. / Name :</td>
+                                <td><input type="text"</td>
+                            </tr>
+                            <tr>
+                                <td align="right">sub-locality(optional):</td>
+                                <td><input type="text"</td>
+                    
+                            </tr>
+                            <tr>
+                                <td align="right">Locality:</td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <td align="right">Country:</td>
+                            <td><select name="country" id="country">
+                                <option value="country">--Select--</option>
+                                <option value="india">india</option>
+                                <option value="pakistan">Pakistan</option>
+                                <option value="newzeland">Newzeland</option>
+                                <option value="australia">Australia</option>
+                                <option value="china">China</option>
+                           </select></td>                   
+                            </tr>
+                            <tr>
+                                <td align="right">State:</td>
+                            <td><select name="state" id="state">
+                                <option value="state">--Select--</option>
+                                <option value="bihar">Bihar</option>
+                                <option value="uttar pardesh">Uttar pardesh</option>
+                                <option value="maharsthra">Delhi</option>
+                                <option value="kolkata">kolkata</option>
+                                <option value="gujrat">Gujrat</option>
+                           </select></td>                   
+                            
+                           </tr>
+                           <tr>
+                            <td align="right">District:</td>
+                            <td><select name="district" id="district">
+                                <option value="district">--Select--</option>
+                                <option value="vaishali">vaishali</option>
+                                <option value="muzzafarpur">muzzaffarpur</option>
+                                <option value="samastipur">samastipur</option>
+                                <option value="purnia">purnia</option>
+                                <option value="chhapra">chhapra</option>
+                           </select></td>                   
+                            
+                           </tr>
+                           <tr>
+                            <td align="right">Pin code:</td>
+                            <td><input type="text"</td>
+                           </tr>
+                           <tr>
+                            <td align="right">Email Address:</td>
+                            <td><input type="email"</td>
+                           </tr>
+                           <tr>
+                            <td align="right">Mobile number:</td>
+                            <td><input type="tel"</td>
+                           </tr>
+                           <tr>
+                            <td align="right">Alternet Contact No 
+                                (optional):
+                            </td>
+                            <td><input type="tel"</td>
+                           </tr>
+
+                        
                     </table>
                 </td>
             </tr>
