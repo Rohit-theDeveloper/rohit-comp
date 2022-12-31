@@ -1,0 +1,7 @@
+{
+    "liveServer.settings.ChromeDebuggingAttachment": true,
+    "liveServer.settings.port": 5500,
+    "liveServer.settings.useWebExt": false,
+    "liveServer.settings.useLocalIp": true,
+    "liveServer.settings.root": ""
+}
