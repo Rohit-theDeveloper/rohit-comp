@@ -4,7 +4,8 @@
        <title>input page</title>
     </head>
     <body>
-        <table width="100%"  border="1"  rules="all">
+        <form>
+        <table width="80%"  border="1"  rules="all" align="center">
             <tr height="70px">
                 
                 <td align="center" colspan="5"><h2>Registration Form</h2></td>
@@ -128,6 +129,105 @@
                             </td>
                             <td><input type="tel"</td>
                            </tr>
+                           <tr>
+                            <td width="100%" colspan="2"><p>Permanent Address</p><hr></td>
+                           </tr>
+                           <tr>
+                            <td><input type="radio"> Same As Present Address</td>
+                            
+                           </tr>
+                        
+                           <tr>
+                                <td align="right">Premises No. / Name :</td>
+                                <td><input type="text"</td>
+                            </tr>
+                            <tr>
+                                <td align="right">sub-locality(optional):</td>
+                                <td><input type="text"</td>
+                    
+                            </tr>
+                            <tr>
+                                <td align="right">Locality:</td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <td align="right">Country:</td>
+                            <td><select name="country" id="country">
+                                <option value="country">--Select--</option>
+                                <option value="india">india</option>
+                                <option value="pakistan">Pakistan</option>
+                                <option value="newzeland">Newzeland</option>
+                                <option value="australia">Australia</option>
+                                <option value="china">China</option>
+                           </select></td>                   
+                            </tr>
+                            <tr>
+                                <td align="right">State:</td>
+                            <td><select name="state" id="state">
+                                <option value="state">--Select--</option>
+                                <option value="bihar">Bihar</option>
+                                <option value="uttar pardesh">Uttar pardesh</option>
+                                <option value="maharsthra">Delhi</option>
+                                <option value="kolkata">kolkata</option>
+                                <option value="gujrat">Gujrat</option>
+                           </select></td>                   
+                            
+                           </tr>
+                           <tr>
+                            <td align="right">District:</td>
+                            <td><select name="district" id="district">
+                                <option value="district">--Select--</option>
+                                <option value="vaishali">vaishali</option>
+                                <option value="muzzafarpur">muzzaffarpur</option>
+                                <option value="samastipur">samastipur</option>
+                                <option value="purnia">purnia</option>
+                                <option value="chhapra">chhapra</option>
+                           </select></td>                   
+                            
+                           </tr>
+                           <tr>
+                            <td align="right">Pin code:</td>
+                            <td><input type="text"</td>
+                           </tr>
+                           
+                           <tr>
+                            <td width="100%" colspan="2"><p>Choose Password</p><hr></td>
+                           </tr>
+                           <tr>
+                            <td align="right">Password:</td>
+                            <td><input type="password"</td>
+                           </tr>
+                           <tr>
+                            <td align="right">Confirm Password:</td>
+                            <td><input type="password"</td>
+                           </tr>
+                           <tr>
+                            <td align="right">Security question:</td>
+                            <td><select name="question" id="question">
+                                <option value="Select">--Select--</option>
+                                <option value="What is your friend name">What is your friend name</option>
+                                <option value="What is your pet name">What is your pet name</option>
+                                <option value="What is your teacher name">What is your teacher name</option>
+                                <option value="What is your sister name">What is your sister name</option>
+                            
+                           </tr>
+                           <tr>
+                            <td align="right">Security answer</td>
+                            <td><input typr="text"></td>
+                           </tr>
+                           <tr>
+                            <td width="100%" colspan="2"><p>Security pin</p><hr></td>
+                           </tr>
+                           <tr>
+                            <td align="right">Enter security pin(Case sensitive):</td>
+                            <td><input type="text"></td>
+                           </tr>
+                           <tr>
+                            <td align="right">Security Pin:</td>
+                            <td><inpyt type="image" alt="submit" src=""></td>
+                           </tr>
+                           <tr>
+                            <td align="center" colspan="5"><input type="submit"></td>
+                           </tr>
 
                         
                     </table>
@@ -139,6 +239,6 @@
             
             
         </table>
-
+     </form>
     </body>
 </html>

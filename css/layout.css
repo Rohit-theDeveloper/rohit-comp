@@ -1,0 +1,48 @@
+*{margin: 0; padding:o}
+#wrapper{
+    border: 5px solid red;
+}
+#header{
+    height:50px ;
+    background-color: aqua;
+}
+#menu{
+    height:75px;
+    background-color: brown;
+}
+#slider{
+    height: 100px;
+    background-color: blue;
+}
+#content{
+    height: 300px;
+    background-color: green;
+}
+#left{
+    height: 100%;
+    width: 30%;
+    background-color: yellow;
+    float: left;
+}
+#right{
+    height: 100%;
+    width: 70%;
+    background-color: aqua;
+    float: right;
+}
+#right_top{
+    height: 40%;
+    width:100%;
+    background-color: red;
+    float: center;
+}
+#right_bottom{
+    height:60%;
+    width: 100%;
+    background-color: green;
+    
+}
+#footer{
+    height: 100px;
+    background-color:antiquewhite;
+}
