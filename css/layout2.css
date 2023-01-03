@@ -1,6 +1,6 @@
-*{ margin: 0; padding:1px}
+*{ margin: 0; padding:0px}
 
-#wrapper{
+    #wrapper{
     border: 5px solid red;
 }
 #header{
@@ -25,7 +25,7 @@
 }
 #right{
     height:500px;
-    width:59%;
+    width:60%;
     background-color: aqua;
     float:right;
 }
@@ -42,38 +42,55 @@
     width:100%;
     background-color: brown;
 }
+#right_bottom_top{
+    height:150px;
+    width:100%;
+    background-color:brown ;
+}
+#right_bottom_bottom{
+    height: 100px;
+    width: 100%;
+    background-color:red;
+}
 #bottom_left{
     height:100px;
-    width: 30%;
+    width:33.3%;
     background-color: yellowgreen;
-    float: left;
+    float:left;
     font-size: 20px;
     text-align: center;
     color:blueviolet;
+
 }
 #bottom{
     height: 100px;
-    width: 30%;
-    background-color: greenyellow;
-    float: center;
+    width:33.3%;
+    background-color: yellow;
+    float:left;
+    font-size: 10px;
+    text-align: center;
+    color: red;
+
 }
+
 #bottom_right{
     height: 100px;
-    width: 30%;
+    width: 33.3%;
     background-color: aqua;
-    float: right;
+    float:right;
     text-align: center;
     font-size: 20px;
-    color: black
+    color: black;
+    
 }
 
 
 
 #footer{
-    height:60px;
+    height:80px;
     background-color: blueviolet;
     text-align: center;
     font-size: 30px;
-    color: gray;
+    color: black;
     
 }
